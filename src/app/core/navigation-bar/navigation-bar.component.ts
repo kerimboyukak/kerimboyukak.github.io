@@ -1,7 +1,6 @@
-// navigation-bar.component.ts
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import {NgClass, NgIf} from "@angular/common";
+import {NgClass} from "@angular/common";
 
 @Component({
     selector: 'app-navigation-bar',
