@@ -4,11 +4,10 @@ import { RouterLink } from '@angular/router';
 import {NgClass, NgIf} from "@angular/common";
 
 @Component({
-  selector: 'app-navigation-bar',
-  standalone: true,
-  imports: [RouterLink, NgIf, NgClass],
-  templateUrl: './navigation-bar.component.html',
-  styleUrl: './navigation-bar.component.css'
+    selector: 'app-navigation-bar',
+    imports: [RouterLink, NgClass],
+    templateUrl: './navigation-bar.component.html',
+    styleUrl: './navigation-bar.component.css'
 })
 export class NavigationBarComponent {
   isMobileMenuOpen = false;

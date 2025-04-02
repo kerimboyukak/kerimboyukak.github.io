@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import {NgForOf} from "@angular/common";
 
 @Component({
-  selector: 'app-projects',
-  standalone: true,
-  imports: [
-    NgForOf
-  ],
-  templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+    selector: 'app-projects',
+    imports: [
+        NgForOf
+    ],
+    templateUrl: './projects.component.html',
+    styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
   projects = [
