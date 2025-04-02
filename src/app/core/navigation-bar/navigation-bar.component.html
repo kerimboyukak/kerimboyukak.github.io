@@ -1,6 +1,25 @@
 <nav class="bg-dark text-offWhite sticky top-0 z-50">
   <div class="flex items-center justify-between p-4 md:p-10">
-    <div class="text-2xl font-bold">my portfolio</div>
+    <div class="flex items-center space-x-4">
+      <div class="text-2xl font-bold">my portfolio</div>
+      <div class="hidden md:flex items-center space-x-2">
+        <a href="mailto:kerimboyukak@live.be"
+           class="bg-lightGray text-white p-2 rounded-lg hover:bg-accent transition-colors duration-300"
+           aria-label="Email me">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://linkedin.com/in/kerim-böyükak-a099432b4"
+           class="bg-lightGray text-white p-2 rounded-lg hover:bg-accent transition-colors duration-300"
+           aria-label="LinkedIn profile">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/kerimboyukak"
+           class="bg-lightGray text-white p-2 rounded-lg hover:bg-accent transition-colors duration-300"
+           aria-label="GitHub profile">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
 
     <button
       class="md:hidden p-2 focus:outline-none"
@@ -28,10 +47,6 @@
          class="bg-lightGray text-white px-6 py-3 rounded-lg hover:bg-accent transition-colors duration-300">
         view my projects
       </a>
-      <a routerLink="/contact"
-         class="bg-lightGray text-white px-6 py-3 rounded-lg hover:bg-accent transition-colors duration-300">
-        get in touch
-      </a>
     </div>
   </div>
 
@@ -53,6 +68,30 @@
       </button>
 
       <div class="flex flex-col items-center space-y-6">
+        <div class="flex flex-col items-center space-y-4">
+          <div class="text-2xl font-bold">my portfolio</div>
+          <div class="flex space-x-4">
+            <a href="mailto:kerimboyukak@live.be"
+               class="bg-lightGray text-white p-2 rounded-lg hover:bg-accent transition-colors duration-300"
+               aria-label="Email me"
+               (click)="closeMobileMenu()">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://linkedin.com/in/kerim-böyükak-a099432b4"
+               class="bg-lightGray text-white p-2 rounded-lg hover:bg-accent transition-colors duration-300"
+               aria-label="LinkedIn profile"
+               (click)="closeMobileMenu()">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/kerimboyukak"
+               class="bg-lightGray text-white p-2 rounded-lg hover:bg-accent transition-colors duration-300"
+               aria-label="GitHub profile"
+               (click)="closeMobileMenu()">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+
         <a routerLink="/"
            class="bg-lightGray text-white px-6 py-3 rounded-lg hover:bg-accent transition-colors duration-300 w-full max-w-xs text-center"
            (click)="closeMobileMenu()">
@@ -67,11 +106,6 @@
            class="bg-lightGray text-white px-6 py-3 rounded-lg hover:bg-accent transition-colors duration-300 w-full max-w-xs text-center"
            (click)="closeMobileMenu()">
           view my projects
-        </a>
-        <a routerLink="/contact"
-           class="bg-lightGray text-white px-6 py-3 rounded-lg hover:bg-accent transition-colors duration-300 w-full max-w-xs text-center"
-           (click)="closeMobileMenu()">
-          get in touch
         </a>
       </div>
     </div>
