@@ -3,6 +3,7 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @theme {
   --color-dark: #262125;
+  --color-dark-90: #262125e6;
   --color-darkGray: #8a817c;
   --color-lightGray: #302533;
   --color-offWhite: #9c7995;
@@ -10,7 +11,6 @@
 }
 
 * {
-  font-family: 'Roboto Mono', monospace;
-  /*font-family: 'VT323', monospace;*/
-
+  /*font-family: 'Roboto Mono', monospace;*/
+  font-family: 'VT323', monospace;
 }

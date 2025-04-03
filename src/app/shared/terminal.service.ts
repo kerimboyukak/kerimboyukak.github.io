@@ -20,7 +20,7 @@ export class TerminalService {
     if (command.trim()) {
       this.terminalOutput.push(`> ${command}`);
       this.processCommand(command.trim());
-      this.command = ''; // Clear input
+      this.command = '';
     }
   }
 
@@ -33,7 +33,7 @@ export class TerminalService {
         this.terminalOutput = [];
         break;
       case 'about':
-        this.terminalOutput.push('This is a custom terminal by Kerim!');
+        this.terminalOutput.push('This is a custom terminal made by Kerim!');
         break;
       default:
         this.terminalOutput.push(`Command not found: ${cmd}`);
