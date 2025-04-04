@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavigationBarComponent} from "./core/navigation-bar/navigation-bar.component";
-import {TerminalComponent} from "./core/terminal/terminal.component";
-import {TerminalButtonComponent} from "./core/terminal-button/terminal-button.component";
+import {ThemeButtonComponent} from "./core/theme-button/theme-button.component";
 
 @Component({
     selector: 'app-root',
-    imports: [RouterOutlet, NavigationBarComponent, TerminalComponent, TerminalButtonComponent],
+  imports: [RouterOutlet, NavigationBarComponent, ThemeButtonComponent],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
 })
