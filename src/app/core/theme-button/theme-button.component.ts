@@ -53,11 +53,11 @@ export class ThemeButtonComponent {
     {
       name: 'Forest Harmony',
       colors: {
-        '--color-dark': '#1a2f26',     // Forest green (dark base)
-        '--color-dark-90': '#1a2f26e6', // 90% opacity
-        '--color-lightGray': '#d9c2a7', // Beige (light background)
-        '--color-offWhite': '#e6d5b8',  // Light beige (text)
-        '--color-accent': '#2e8b57'     // Forest green accent
+        '--color-dark': '#1a2f26',
+        '--color-dark-90': '#1a2f26e6',
+        '--color-lightGray': '#BAAB94',
+        '--color-offWhite': '#e6d5b8',
+        '--color-accent': '#2e8b57'
       }
     },
     {
@@ -73,11 +73,11 @@ export class ThemeButtonComponent {
     {
       name: 'Woodland Glow',
       colors: {
-        '--color-dark': '#2e4238',     // Dark forest green (base)
-        '--color-dark-90': '#2e4238e6', // 90% opacity
-        '--color-lightGray': '#4a3728', // Deep brown (subtle background)
-        '--color-offWhite': '#c9d1b8',  // Light green-beige (text)
-        '--color-accent': '#6b8e23'     // Olive green accent
+        '--color-dark': '#2e4238',
+        '--color-dark-90': '#2e4238e6',
+        '--color-lightGray': '#4a3728',
+        '--color-offWhite': '#c9d1b8',
+        '--color-accent': '#6b8e23'
       }
     }
   ];
